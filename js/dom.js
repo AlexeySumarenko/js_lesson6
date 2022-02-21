@@ -88,7 +88,7 @@ window.addEventListener("DOMContentLoaded",() =>
         }
 
         // При нажатии клавиши 1, 2, 3, 4, 5, 6, 7, 8, 9 или 0 на странице появляется сообщение «Я НЕНАВИЖУ ЧИСЛААААА!»
-        window.addEventListener("keyDownnumb", keyDown, false);
+        window.addEventListener("keydown", keyDown, false);
         function keyDown(element) {
             if ((element.keyCode >= 48 && element.keyCode <= 57) || (element.keyCode >= 96 && element.keyCode <= 105)) {
                 alert("Я НЕНАВИЖУ ЧИСЛААААА!");    
